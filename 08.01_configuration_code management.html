@@ -1,0 +1,375 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+<title>::: NEXPector Air v1.5 WireFrame :::</title>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link href="./css/default.css" type="text/css" rel="stylesheet" />
+<!-- Loading Bootstrap -->
+<link href="dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+<!-- Loading Flat UI -->
+<link href="dist/css/flat-ui.css" rel="stylesheet">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="dist/js/vendor/jquery.min.js"></script>
+<script src="dist/js/flat-ui.min.js"></script>
+<script src="docs/assets/js/application.js"></script>
+
+<body>
+<!--wrap-->
+<div class="wrap"> 
+  <!--왼쪽영역-->
+  <div class="wrap_left">
+  	<!--펼침메뉴-->
+  	<div class="left_menu_open">
+    	<!--닫기버튼-->
+        <div class="left_menu_btn_close">
+        	<a href="#"><img src="images/btn_left_close.png" title="닫기"></a>
+        </div>
+        <!--//닫기버튼-->
+        <div class="tree_lmenu">
+        	<ul>
+            	<li><span class="tree_icot"><img src="./images/icon_earth.png"></span><strong>ROOT</strong><span class="tree_arrow"><img src="./images/icon_arrow_down01.png"></span></li>
+                <li><span class="tree_dotline"><img src="./images/dotline01.png"></span><span class="tree_ico"><img src="./images/icon_x.png"></span><strong>서울</strong><span class="tree_arrow"><img src="./images/icon_arrow_down01.png"></span>
+                <ul>
+                	<li><span class="tree_dotline"><img src="./images/dotline01.png"></span><span class="tree_ico"><img src="./images/icon_com.png"></span>강남 IDC<span class="tree_arrow"><img src="./images/icon_arrow_down01.png"></span>
+                    	<ul>
+                        	<li><span class="tree_dotline"><img src="./images/dotline01.png"></span><span class="tree_icos"><img src="./images/icon_error.png"></span><strong>LTE-A</strong>_4242254</li>
+                            <li><span class="tree_dotline"><img src="./images/dotline01.png"></span><span class="tree_icos"><img src="./images/icon_ok.png"></span><strong>LTE-A</strong>_4242254</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                	<li><span class="tree_dotline"><img src="./images/dotline01.png"></span><span class="tree_ico"><img src="./images/icon_com.png"></span>서초 IDC<span class="tree_arrow"><img src="./images/icon_arrow_down01.png"></span>
+                    	<ul>
+                        	<li><span class="tree_dotline"><img src="./images/dotline01.png"></span><span class="tree_icos"><img src="./images/icon_error.png"></span><strong>LTE-A</strong>_4242254</li>
+                            <li><span class="tree_dotline"><img src="./images/dotline01.png"></span><span class="tree_icos"><img src="./images/icon_ok.png"></span><strong>LTE-A</strong>_4242254</li>
+                        </ul>
+                    </li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--//펼침메뉴-->
+  	<!--열기버튼-->
+    <div class="left_menu_btn_open">
+    	<a href="#"><img src="./images/btn_left_open.png" title="열기"></a>
+    </div>
+    <!--열기버튼-->
+  	<!--로고-->
+    <div class="logo">
+    <a href="#"><img src="./images/logo.png" title="logo"></a>
+    </div>
+    <!--//로고-->
+    <!--로그인 정보-->
+    <div class="logininfo">
+    	<div class="logininfo_text">홍길동<br>
+		(admin)</div>
+        <div class="logininfo_btn">
+        	<ul>
+            	<li><a href="#"><img src="./images/btn_logout.png" title="로그아웃" ></a></li>
+                <li><a href="#"><img src="./images/btn_edit.png" title="정보수정" ></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--//로그인 정보-->
+    <!--왼쪽메뉴-->
+    <div class="left_menu">
+    	<ul>
+        	<li class="left_menu_1depth">ROOT</li>
+            <li class="left_menu_2depth">서울특별시</li>
+            <li class="left_menu_3depth">구로구</li>
+            <li class="left_menu_4depth">독산3동</li>
+            <li class="left_menu_5depth">324932843434</li>
+        </ul>
+    </div>
+    <!--//왼쪽메뉴-->
+    <!--실시간 현황-->
+    <div class="livecondition">
+   	  <div class="livercondition_text1">
+        실시간 현황
+        </div>
+      <div class="livercondition_text2">
+        	<ul>
+            	<li>전체 : <b>0000대</b></li>
+                <li>동작 : <b>194건</b></li>
+                <li>장애 : <b>006건</b></li>
+            </ul>
+        </div>
+        <!--그래프-->
+        <div class="livercondition_graph">
+        </div>
+        <!--//그래프-->
+    </div>
+    <!--//실시간 현황-->
+  </div>
+  <!--//왼쪽영역--> 
+  <!--gnb-->
+  <div class="wrap_gnb">
+  	<div class="wrap_navi">
+  		<ul class="navi">
+          <li><a href="#">실시간 관제</a>
+          	<ul>
+              <li><a href="#">관제 현황</a></li>
+              <li><a href="#">단말 상세 검색</a></li>
+              <li><a href="#">이벤트 검색</a></li>
+            </ul>
+          </li>
+          <li><a href="#">장애 관제</a>
+          	<ul>
+              <li><a href="#">실시간 장애</a></li>
+              <li><a href="#">장애 이력</a></li>
+              <li><a href="#">장애 추이</a></li>
+            </ul>
+          </li>
+          <li><a href="#">네트워크 관제</a>
+          	<ul>
+              <li><a href="#">실시간 트래픽</a></li>
+              <li><a href="#">실시간 인터페이스</a></li>
+              <li><a href="#">네트워크 추이</a></li>
+            </ul>
+          </li>
+          <li><a href="#">지원관제</a>
+          	<ul>
+              <li><a href="#">실시간 사용률</a></li>
+              <li><a href="#">사용률 추이</a></li>
+            </ul>
+          </li>
+          <li><a href="#">정보관리</a>
+          	<ul>
+              <li><a href="#">사용자 정보</a></li>
+              <li><a href="#">지역 관리</a></li>
+              <li><a href="#">자산 관리</a></li>
+            </ul>
+          </li>
+          <li><a href="#">운영관리</a>
+            <ul>
+              <li><a href="#">Firmwave 관리</a></li>
+              <li><a href="#">임계치 관리</a></li>
+              <li><a href="#">단말 모델 관리</a></li>
+            </ul>
+          </li>
+          <li><a href="#">보고서</a>
+            <ul>
+              <li><a href="#">유무선 연결 현황</a></li>
+              <li><a href="#">Firmware 적용 현황</a></li>
+              <li><a href="#">운영보고서(지역)</a></li>
+              <li><a href="#">운영보고서(기간)</a></li>
+            </ul>
+          </li>
+          <li><a href="#">환경설정</a>
+            <ul>
+              <li><a href="#">코드 관리</a></li>
+              <li><a href="#">메뉴 관리</a></li>
+              <li><a href="#">페이지 설정관리</a></li>
+              <li><a href="#">장애 등급 관리</a></li>
+              <li><a href="#">SMS 발송 설정</a></li>
+            </ul>
+          </li>
+          <li><a href="#">커뮤니티</a>
+            <ul>
+              <li><a href="#">SMS 발송</a></li>
+              <li><a href="#">SMS 발송 이력</a></li>
+              <li><a href="#">전화번호부</a></li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+  </div>
+  <!--gnb--> 
+  <!--컨텐츠-->
+  <div class="container">
+    <div class="page_title"> 
+    환경설정 &gt; <b>코드 관리</b>
+    </div>
+    <div class="content">
+        <div class="con_box01">
+        	<!--박스_이벤트-->
+            <div style=" float:left; width:260px; margin:0px 0 0 0px;">
+            	<div style="float:left; width:100%; height:20px; color:#555; font-size:14px; line-height:20px;">이벤트 유행 코드</div>
+                <div style="float:left; width:100%; height:30px; margin-top:6px; display:inline;">
+                <input class="form-control input-sm" type="text" placeholder="" style="float:left; width:194px"><button type="button" class="btn btn-primary btn-sm" style="float:left; margin-left:10px;">추가</button>
+                </div>
+                <!--테이블-->
+                  <div style="float:left; width:100%; margin:10px 0 10px 0;">
+                    <table class="tbl_type" border="1" cellspacing="0" summary="">
+                      <caption>
+                      </caption>
+                      <colgroup>
+                      <col width="">
+                      <col width="30px">
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th scope="col">동작(001)</th>
+                          <td scope="col"><button type="button" class="btn btn-primary btn-xs">X</button></td>
+                          </tr>
+                      </thead>
+                      <tfoot>
+                      </tfoot>
+                      <tbody>
+                        <tr>
+                          <th>통신 경로 변경(002)</th>
+                          <td><button type="button" class="btn btn-primary btn-xs">X</button></td>
+                          </tr>
+                        <tr>
+                          <th>IP 정보 변경(003)</th>
+                          <td><button type="button" class="btn btn-primary btn-xs">X</button></td>
+                          </tr>
+                        <tr>
+                          <th>IP 정보 불일치(004)</th>
+                          <td><button type="button" class="btn btn-primary btn-xs">X</button></td>
+                          </tr>
+                        <tr>
+                          <th>G/W 정보 불일치(005)</th>
+                          <td><button type="button" class="btn btn-primary btn-xs">X</button></td>
+                          </tr>
+                        <tr>
+                          <th>S/M 정보 불일치(006)</th>
+                          <td><button type="button" class="btn btn-primary btn-xs">X</button></td>
+                          </tr>
+                        <tr>
+                          <th>고유번호 정보 불일치(007)</th>
+                          <td><button type="button" class="btn btn-primary btn-xs">X</button></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                  </div>
+               <!--//테이블--> 
+          </div>
+          <!--//박스_이벤트-->
+          <!--박스_제조사-->
+            <div style=" float:left; width:260px; margin:0px 0 0 10px;">
+            	<div style="float:left; width:100%; height:20px; color:#555; font-size:14px; line-height:20px;">제조사 코드</div>
+                <div style="float:left; width:100%; height:30px; margin-top:6px; display:inline;">
+                <input class="form-control input-sm" type="text" placeholder="" style="float:left; width:194px"><button type="button" class="btn btn-primary btn-sm" style="float:left; margin-left:10px;">추가</button>
+                </div>
+                <!--테이블-->
+                  <div style="float:left; width:100%; margin:10px 0 10px 0;">
+                    <table class="tbl_type" border="1" cellspacing="0" summary="">
+                      <caption>
+                      </caption>
+                      <colgroup>
+                      <col width="">
+                      <col width="30px">
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th scope="col">MEXUS(001)</th>
+                          <td scope="col"><button type="button" class="btn btn-primary btn-xs">X</button></td>
+                          </tr>
+                      </thead>
+                      <tfoot>
+                      </tfoot>
+                      <tbody>
+                        </tbody>
+                    </table>
+                  </div>
+               <!--//테이블--> 
+          </div>
+          <!--//박스_제조사-->
+          <!--박스_장애등급-->
+            <div style=" float:left; width:260px; margin:0px 0 0 10px;">
+            	<div style="float:left; width:100%; height:20px; color:#555; font-size:14px; line-height:20px;">장애 등급 코드</div>
+                <div style="float:left; width:100%; height:30px; margin-top:6px; display:inline;">
+                <input class="form-control input-sm" type="text" placeholder="" style="float:left; width:194px"><button type="button" class="btn btn-primary btn-sm" style="float:left; margin-left:10px;">추가</button>
+                </div>
+                <!--테이블-->
+                  <div style="float:left; width:100%; margin:10px 0 10px 0;">
+                    <table class="tbl_type" border="1" cellspacing="0" summary="">
+                      <caption>
+                      </caption>
+                      <colgroup>
+                      <col width="">
+                      <col width="30px">
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th scope="col">주의(001)</th>
+                          <td scope="col"><button type="button" class="btn btn-primary btn-xs">X</button></td>
+                        </tr>
+                      </thead>
+                      <tfoot>
+                      </tfoot>
+                      <tbody>
+                        <tr>
+                          <th>경고(002)</th>
+                          <td><button type="button" class="btn btn-primary btn-xs">X</button></td>
+                        </tr>
+                        <tr>
+                          <th>중요(003)</th>
+                          <td><button type="button" class="btn btn-primary btn-xs">X</button></td>
+                        </tr>
+                        <tr>
+                          <th>심각(004)</th>
+                          <td><button type="button" class="btn btn-primary btn-xs">X</button></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+               <!--//테이블--> 
+          </div>
+          <!--//박스_장애등급-->
+          <!--박스_통신경로-->
+            <div style=" float:left; width:260px; margin:0px 0 0 10px;">
+           	  <div style="float:left; width:100%; height:20px; color:#555; font-size:14px; line-height:20px;">통신 경로 코드</div>
+                <div style="float:left; width:100%; height:30px; margin-top:6px; display:inline;">
+                <input class="form-control input-sm" type="text" placeholder="" style="float:left; width:194px"><button type="button" class="btn btn-primary btn-sm" style="float:left; margin-left:10px;">추가</button>
+                </div>
+                <!--테이블-->
+                  <div style="float:left; width:100%; margin:10px 0 10px 0;">
+                    <table class="tbl_type" border="1" cellspacing="0" summary="">
+                      <caption>
+                      </caption>
+                      <colgroup>
+                      <col width="">
+                      <col width="30px">
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th scope="col">유선(001)</th>
+                          <td scope="col"><button type="button" class="btn btn-primary btn-xs">X</button></td>
+                          </tr>
+                      </thead>
+                      <tfoot>
+                      </tfoot>
+                      <tbody>
+                        <tr>
+                          <th>무선(LTE-A)(002)</th>
+                          <td><button type="button" class="btn btn-primary btn-xs">X</button></td>
+                          </tr>
+                        <tr>
+                          <th>무선(WCDMA)(003)</th>
+                          <td><button type="button" class="btn btn-primary btn-xs">X</button></td>
+                          </tr>
+                        </tbody>
+                    </table>
+                  </div>
+               <!--//테이블--> 
+          </div>
+          <!--//박스_통신경로-->
+        </div>
+    </div>
+    </div>
+  </div>
+  <!--//컨텐츠--> 
+  <!--풋터-->
+  <div class="wrap_footer">
+    <div class="foot">
+    	<div class="foot_logo">
+        <img src="./images/logo_foot.png">
+        </div>
+        <div class="foot_text1">
+        	<ul>
+            	<li>(우) 427-727 경기도 과천시 홍촌말로 44(중앙동2-3) 중앙선거관리위원회</li>
+				<li>대표전화 : 02-503-2761</li>
+				<li style="margin-top:5px;">Copyright (c) <span style="color:#2286c8; font-weight:bold;">National Election Commission</span> All Right Reserved.</li>
+        	</ul>
+        </div>
+    </div>
+  </div>
+  <!--//풋터--> 
+</div>
+<!--//wrap-->
+</body>
+</html>
